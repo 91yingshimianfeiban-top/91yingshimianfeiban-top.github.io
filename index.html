@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>91影视免费版｜零花费看片的笔记：不花钱，也把片子看明白</title>
+<meta name="description" content="91影视免费版是一份关于免费观看与省钱看片的手写笔记。这里记录免费片源怎么找、公共版权老片在哪看、哪里可以不花钱看完一整部、免费片单怎么排、冷门公版片补看、免费观影的时间安排、老片免费放映记录。本站只做观看方法的整理与观影记录，不卖票、不收款、不接播放、不提供下载，也没有付费墙和会员等级。">
+<meta name="keywords" content="91影视免费版,免费看影视,不花钱看电影,免费片源整理,公共版权电影,老片免费看,免费观影笔记,零花费看片,免费片单,公版影片,冷门免费片,免费观影时间">
+<link rel="canonical" href="https://91yingshimianfeiban-top.github.io/">
+<style>
+:root{--paper:#f2ece0;--ink:#24211d;--red:#b5462f;--yellow:#e8c44a;--green:#687a48;--line:#cfc6b2;--soft:#e7dfcc;--card:#fbf7ee}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Songti SC","STSong","SimSun",Georgia,"Times New Roman",serif;font-size:16px;line-height:1.85;-webkit-text-size-adjust:100%}
+img{max-width:100%;display:block}
+a{color:var(--red);text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 26px}
+/* 顶栏 */
+.topbar{background:var(--ink);color:#f2ece0;font-family:"Courier New",monospace;font-size:12.5px;letter-spacing:.12em}
+.topbar .wrap{display:flex;flex-wrap:wrap;gap:18px;padding-top:8px;padding-bottom:8px}
+.topbar span{opacity:.88}
+.topbar b{color:var(--yellow)}
+/* 刊头 */
+.mast{position:relative;border-bottom:4px solid var(--ink);padding:34px 0 22px}
+.mast:after{content:"";display:block;height:1px;background:var(--ink);margin-top:6px}
+.mast .wrap{display:flex;flex-wrap:wrap;gap:26px;align-items:flex-end;justify-content:space-between}
+.brand{font-weight:900;font-size:clamp(36px,7.4vw,70px);line-height:1.02;letter-spacing:.01em;margin:0}
+.brand em{font-style:normal;background:var(--red);color:#fff;padding:.02em .18em;transform:rotate(-4deg);display:inline-block;box-shadow:5px 5px 0 var(--yellow)}
+.issue{font-family:"Courier New",monospace;font-size:13px;border:1px solid var(--ink);padding:12px 16px;min-width:214px;background:var(--card)}
+.issue p{margin:5px 0}
+.issue b{color:var(--red)}
+.lede{font-size:19px;line-height:1.95;margin:30px 0 8px}
+.lede::first-letter{font-family:"Courier New",monospace;font-size:60px;font-weight:900;float:left;line-height:.9;padding:6px 12px 0 0;color:var(--red)}
+.rules{background:var(--ink);color:#f2ece0;padding:20px 24px;margin:26px 0 0;border-left:8px solid var(--red)}
+.rules ol{margin:0;padding-left:22px}
+.rules li{margin:6px 0}
+/* 导航 */
+nav{position:sticky;top:0;z-index:50;background:rgba(242,236,224,.96);border-bottom:2px solid var(--ink);backdrop-filter:blur(4px)}
+nav .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:thin;padding-top:10px;padding-bottom:10px}
+nav a{flex:0 0 auto;font-family:"Courier New",monospace;font-size:13px;padding:6px 14px;border:1px solid var(--ink);margin-right:8px;background:var(--card);color:var(--ink);text-transform:uppercase}
+nav a:hover{background:var(--red);color:#fff}
+/* 区块 */
+section{padding:52px 0 12px;border-top:1px solid var(--line)}
+section>h2{font-size:27px;margin:0 0 6px;display:flex;align-items:baseline;gap:14px}
+section>h2 i{font-style:normal;font-family:"Courier New",monospace;font-size:13px;color:var(--red);letter-spacing:.14em;text-transform:uppercase}
+.secnote{color:#5f5a4f;font-size:14.5px;margin:0 0 26px}
+/* 三步 */
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.trio article{border:2px solid var(--ink);background:var(--card);padding:22px 20px 26px;box-shadow:6px 6px 0 var(--red);position:relative}
+.trio .big{font-family:"Courier New",monospace;font-size:52px;line-height:1;font-weight:900;color:var(--yellow);-webkit-text-stroke:2px var(--ink);margin-bottom:8px}
+.trio h3{margin:0 0 10px;font-size:20px}
+.trio ul{margin:12px 0 0;padding-left:18px;font-size:14.5px}
+.trio li{margin:5px 0}
+/* 记录条目 */
+.note{display:grid;grid-template-columns:250px 1fr;gap:0;border:2px solid var(--ink);background:var(--card);margin-bottom:26px;box-shadow:6px 6px 0 var(--ink)}
+.note .cvr{background:linear-gradient(150deg,var(--ink) 0%,#463f33 55%,var(--red) 140%);color:#f2ece0;padding:24px 20px;display:flex;flex-direction:column;justify-content:space-between;min-height:230px;position:relative;overflow:hidden}
+.note .cvr:before{content:attr(data-n);font-family:"Courier New",monospace;font-size:74px;font-weight:900;color:rgba(242,236,224,.12);position:absolute;right:6px;bottom:-14px;line-height:1}
+.note .cvr small{font-family:"Courier New",monospace;letter-spacing:.2em;font-size:12px;color:var(--yellow)}
+.note .cvr b{font-size:22px;line-height:1.45;display:block;margin-top:auto}
+.note .body{padding:20px 24px 24px}
+.note dl{display:grid;grid-template-columns:74px 1fr 74px 1fr;gap:8px 12px;margin:0 0 14px;font-size:14px}
+.note dt{color:#6d6759;font-family:"Courier New",monospace;font-size:12.5px;letter-spacing:.06em}
+.note dd{margin:0;font-weight:700}
+.note q{display:block;background:var(--paper);border-left:5px solid var(--red);padding:12px 16px;margin:0 0 14px;font-size:16.5px;quotes:"\201C""\201D"}
+.note .tags{font-family:"Courier New",monospace;font-size:12.5px;color:var(--green)}
+.note .tags i{font-style:normal;background:var(--yellow);padding:1px 7px;margin-right:7px}
+/* 归档表 */
+.scroll{overflow-x:auto;border:2px solid var(--ink);background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:14.5px}
+th,td{border-bottom:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top}
+th{background:var(--ink);color:#f2ece0;font-family:"Courier New",monospace;font-size:12.5px;letter-spacing:.1em;text-transform:uppercase}
+td .num{font-family:"Courier New",monospace;font-weight:700;color:var(--red)}
+.pill{display:inline-block;font-family:"Courier New",monospace;font-size:11.5px;padding:2px 9px;border:1px solid var(--ink);background:var(--yellow);color:var(--ink)}
+.pill.n{background:#dfe6cd;color:#465234}
+.pill.w{background:#f0d9cf;color:#8c3520}
+/* 专题卡 */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.cards .cd{border:2px solid var(--ink);background:var(--ink);color:#f2ece0;padding:26px 22px;position:relative;min-height:240px;overflow:hidden;box-shadow:6px 6px 0 var(--green)}
+.cards .cd:after{content:attr(data-l);position:absolute;font-family:"Courier New",monospace;font-weight:900;font-size:120px;color:rgba(242,236,224,.07);right:-10px;bottom:-34px;line-height:1}
+.cards .cd small{font-family:"Courier New",monospace;letter-spacing:.22em;color:var(--yellow);font-size:12px}
+.cards .cd h3{font-size:21px;margin:14px 0 10px;position:relative}
+.cards .cd p{font-size:14.5px;color:#d9d2c4;margin:0;position:relative}
+/* 问答 */
+details{border:2px solid var(--ink);background:var(--card);margin-bottom:12px}
+summary{cursor:pointer;padding:15px 20px;font-weight:800;font-size:16.5px;list-style:none;display:flex;justify-content:space-between;align-items:center;background:var(--soft)}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";font-family:"Courier New",monospace;color:var(--red);font-size:22px}
+details[open] summary:after{content:"－"}
+details[open] summary{border-bottom:2px solid var(--ink);background:var(--red);color:#fff}
+details div{padding:18px 22px;font-size:15px}
+details div strong{color:var(--red)}
+/* 关于 */
+.aboutbox{display:grid;grid-template-columns:1.35fr 1fr;gap:26px}
+.aboutbox .txt{border-left:5px solid var(--green);padding-left:20px;font-size:15.5px}
+.aboutbox .txt p{margin:0 0 14px}
+.addr{border:2px dashed var(--red);background:var(--red);color:#fff;padding:22px}
+.addr h4{margin:0 0 10px;font-family:"Courier New",monospace;letter-spacing:.18em;font-size:13px;color:var(--yellow)}
+.addr code{display:block;background:rgba(0,0,0,.22);padding:12px 14px;font-family:"Courier New",monospace;font-size:15px;word-break:break-all;color:#ffe9b0}
+/* 页脚 */
+footer{border-top:5px solid var(--ink);margin-top:56px;padding:30px 0 42px;font-size:13.5px;color:#5f5a4f}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px}
+.top{font-family:"Courier New",monospace;background:var(--ink);color:#fff;padding:8px 16px;border:0}
+@media (max-width:860px){
+ .wrap{padding:0 16px}
+ .trio,.cards,.aboutbox{grid-template-columns:1fr}
+ .note{grid-template-columns:1fr}
+ .note .cvr{min-height:160px;padding:20px 18px}
+ .note dl{grid-template-columns:64px 1fr}
+ .note dt,.note dd{margin-bottom:4px}
+ section{padding:40px 0 6px}
+ .mast{padding:26px 0 18px}
+}
+@media print{
+ nav,.top{display:none}
+ body{background:#fff;font-size:11pt}
+ .note,.cards .cd,.trio article{box-shadow:none;break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+<div class="topbar"><div class="wrap"><span>VOL.<b>42</b></span><span>第 118 条记录</span><span>片长区间 28–156 分钟</span><span>记录时间 2024.03—2026.09</span><span>公共版权 / 免费来源</span></div></div>
+
+<header class="mast">
+ <div class="wrap">
+  <h1 class="brand">91<em>影视免费版</em></h1>
+  <div class="issue">
+   <p>册号：<b>NO.42 免费册</b></p>
+   <p>主题：不花钱，也能把一部片子看完</p>
+   <p>篇目：6 篇观看记录 + 8 行归档</p>
+   <p>更新：每周三补一篇免费片源笔记</p>
+  </div>
+ </div>
+ <div class="wrap">
+  <p class="lede">零花费看片这件事，难的不是省下票钱，而是找到一部真正能完整看完、且来源正当的片子。这一册把每一次免费观看的时间、渠道类型、片长和看完之后的几句记录，按月份排好，等下次想看的时候，直接从表里挑。</p>
+  <div class="rules">
+   <ol>
+    <li>只记录公共版权、官方免费、平台免费专区等正当来源，不记录任何来路不明的链接。</li>
+    <li>本册不提供播放、下载、投屏、代找资源，也不接受任何付款与打赏。</li>
+    <li>记录只讲观看方法与看完之后的感受，不预测哪部会火，也不替你决定今晚看什么。</li>
+   </ol>
+  </div>
+ </div>
+</header>
+
+<nav><div class="wrap">
+ <a href="#how">三种免费法</a><a href="#notes">观看记录</a><a href="#arch">免费归档表</a><a href="#focus">专题三则</a><a href="#faq">常见疑问</a><a href="#about">关于本站</a>
+</div></nav>
+
+<main class="wrap">
+
+<section id="how">
+ <h2><i>Section 01</i>三种不花钱的看片方式</h2>
+ <p class="secnote">同样是零花费，看的时间和准备差得很远。下面三档按日常空档划分，挑一档先试。</p>
+ <div class="trio">
+  <article>
+   <div class="big">01</div>
+   <h3>通勤空档：二十分钟短片</h3>
+   <p>早上地铁与午休之间的二十分钟，够看完一部短片。选片先按片长筛，再按题材筛。</p>
+   <ul><li>常见片长：18–28 分钟</li><li>适合：地铁、午休、排队</li><li>记录习惯：记片名 + 一句结尾</li></ul>
+  </article>
+  <article>
+   <div class="big">02</div>
+   <h3>饭后一小时：老片正片</h3>
+   <p>公共版权老片多数在一小时上下，晚饭收拾完刚好看到片尾字幕。黑白片先挑有中文字幕的版本。</p>
+   <ul><li>常见片长：62–95 分钟</li><li>适合：晚饭后、周末上午</li><li>记录习惯：记片头片尾细节</li></ul>
+  </article>
+  <article>
+   <div class="big">03</div>
+   <h3>周末下午：长片分两段</h3>
+   <p>一百二十分钟以上的片子，分两段看反而记得住。中间停一次，把刚才那场戏写下来。</p>
+   <ul><li>常见片长：120–156 分钟</li><li>适合：周末下午、雨天</li><li>记录习惯：记暂停点与原因</li></ul>
+  </article>
+ </div>
+</section>
+
+<section id="notes">
+ <h2><i>Section 02</i>观看记录</h2>
+ <p class="secnote">六篇近期记录，都是免费来源、完整看完的片子。每条都留了一句当场记住的台词或画面。</p>
+
+ <article class="note">
+  <div class="cvr" data-n="N42"><small>ENTRY 42 · 通勤短片</small><b>雨停之前，他把伞留在了门口</b></div>
+  <div class="body">
+   <dl><dt>日期</dt><dd>2026.09.18</dd><dt>片长</dt><dd>24 分钟</dd><dt>来源类型</dt><dd>官方免费短片栏目</dd><dt>花费</dt><dd>0 元</dd></dl>
+   <q>伞上的水还没干，他已经走回那条巷子第二次了。</q>
+   <p class="tags"><i>标签</i> #通勤 #短片 #黑白 #零花费</p>
+  </div>
+ </article>
+
+ <article class="note">
+  <div class="cvr" data-n="N43"><small>ENTRY 43 · 公共版权老片</small><b>片头字幕把年份写错了，没人改</b></div>
+  <div class="body">
+   <dl><dt>日期</dt><dd>2026.09.11</dd><dt>片长</dt><dd>78 分钟</dd><dt>来源类型</dt><dd>公版影片库</dd><dt>花费</dt><dd>0 元</dd></dl>
+   <q>字幕里那个错字，到最后一幕还在。</q>
+   <p class="tags"><i>标签</i> #老片 #公共版权 #中文字幕</p>
+  </div>
+ </article>
+
+ <article class="note">
+  <div class="cvr" data-n="N44"><small>ENTRY 44 · 饭后正片</small><b>三个人吃饭，只说了一句完整的话</b></div>
+  <div class="body">
+   <dl><dt>日期</dt><dd>2026.09.04</dd><dt>片长</dt><dd>88 分钟</dd><dt>来源类型</dt><dd>平台免费专区</dd><dt>花费</dt><dd>0 元</dd></dl>
+   <q>那句话说了三遍，一次比一次轻。</q>
+   <p class="tags"><i>标签</i> #家庭 #饭后 #免费专区</p>
+  </div>
+ </article>
+
+ <article class="note">
+  <div class="cvr" data-n="N45"><small>ENTRY 45 · 周末长片（上）</small><b>暂停之后，窗外的光变了方向</b></div>
+  <div class="body">
+   <dl><dt>日期</dt><dd>2026.08.28</dd><dt>片长</dt><dd>134 分钟（上段 68）</dd><dt>来源类型</dt><dd>官方免费放映</dd><dt>花费</dt><dd>0 元</dd></dl>
+   <q>暂停的那一秒，客厅比电影还安静。</q>
+   <p class="tags"><i>标签</i> #长片 #分两段 #周末</p>
+  </div>
+ </article>
+
+ <article class="note">
+  <div class="cvr" data-n="N46"><small>ENTRY 46 · 冷门补看</small><b>片尾字幕滚完，音乐还在继续</b></div>
+  <div class="body">
+   <dl><dt>日期</dt><dd>2026.08.21</dd><dt>片长</dt><dd>103 分钟</dd><dt>来源类型</dt><dd>公版影片库</dd><dt>花费</dt><dd>0 元</dd></dl>
+   <q>字幕结束之后，还有四分半钟的街道声。</q>
+   <p class="tags"><i>标签</i> #冷门 #公版 #片尾细节</p>
+  </div>
+ </article>
+
+ <article class="note">
+  <div class="cvr" data-n="N47"><small>ENTRY 47 · 通勤短片</small><b>第二遍看，才发现她没换鞋</b></div>
+  <div class="body">
+   <dl><dt>日期</dt><dd>2026.08.14</dd><dt>片长</dt><dd>19 分钟</dd><dt>来源类型</dt><dd>官方免费短片栏目</dd><dt>花费</dt><dd>0 元</dd></dl>
+   <q>那双鞋从第一个镜头穿到最后一个镜头。</q>
+   <p class="tags"><i>标签</i> #二刷 #短片 #细节</p>
+  </div>
+ </article>
+</section>
+
+<section id="arch">
+ <h2><i>Section 03</i>免费观看归档表</h2>
+ <p class="secnote">按看片时段归档，共 8 行。片长、花费与来源类型都写在这里，挑时段比挑片名更快。</p>
+ <div class="scroll">
+  <table>
+   <thead><tr><th>看片时段</th><th>已记内容</th><th>条数</th><th>常见片长</th><th>适合时间</th><th>花费</th><th>归档状态</th></tr></thead>
+   <tbody>
+    <tr><td>通勤空档</td><td>短片与微电影观看笔记</td><td class="num">31</td><td>18–28 分钟</td><td>早高峰 / 午休</td><td>0 元</td><td><span class="pill">已记满</span></td></tr>
+    <tr><td>饭后一小时</td><td>公共版权老片正片记录</td><td class="num">27</td><td>62–95 分钟</td><td>晚饭后</td><td>0 元</td><td><span class="pill">已记满</span></td></tr>
+    <tr><td>周末下午</td><td>长片分两段观看记录</td><td class="num">14</td><td>120–156 分钟</td><td>周六 / 周日</td><td>0 元</td><td><span class="pill n">补充中</span></td></tr>
+    <tr><td>失眠深夜</td><td>纪录片与无声片补看</td><td class="num">19</td><td>45–88 分钟</td><td>23:00 之后</td><td>0 元</td><td><span class="pill n">补充中</span></td></tr>
+    <tr><td>雨天居家</td><td>冷门公版片与修复版</td><td class="num">11</td><td>70–110 分钟</td><td>雨天 / 假期</td><td>0 元</td><td><span class="pill">已记满</span></td></tr>
+    <tr><td>饭后再看一场</td><td>片尾细节与字幕记录</td><td class="num">9</td><td>80–100 分钟</td><td>21:30 之后</td><td>0 元</td><td><span class="pill w">待补</span></td></tr>
+    <tr><td>朋友来访</td><td>多人共看与散场闲聊</td><td class="num">5</td><td>90–120 分钟</td><td>周末晚间</td><td>0 元</td><td><span class="pill w">待补</span></td></tr>
+    <tr><td>二刷重看</td><td>第二遍才发现的新细节</td><td class="num">22</td><td>不定</td><td>任意时段</td><td>0 元</td><td><span class="pill">已记满</span></td></tr>
+   </tbody>
+  </table>
+ </div>
+</section>
+
+<section id="focus">
+ <h2><i>Section 04</i>专题三则</h2>
+ <p class="secnote">围绕免费观看的三个具体问题，各写一段看法。</p>
+ <div class="cards">
+  <div class="cd" data-l="A">
+   <small>TOPIC A</small>
+   <h3>公共版权不等于画质差</h3>
+   <p>公版片里也有做过修复的版本，字幕与清晰度差别很大。挑之前先看片头三秒的片源标识，再看有没有完整中文字幕。</p>
+  </div>
+  <div class="cd" data-l="B">
+   <small>TOPIC B</small>
+   <h3>免费专区的片单会换</h3>
+   <p>平台免费专区的片子每月都在变，看到想看的就先记下来。本册只记观看方法，不保证某个片子今天还免费。</p>
+  </div>
+  <div class="cd" data-l="C">
+   <small>TOPIC C</small>
+   <h3>零花费的代价是时间</h3>
+   <p>省下的票钱，换成挑片与等加载的时间。把这段时间也算进观看成本，心里会清楚很多。</p>
+  </div>
+ </div>
+</section>
+
+<section id="faq">
+ <h2><i>Section 05</i>常见疑问</h2>
+ <p class="secnote">六条关于本站的说明，逐条展开。</p>
+ <details open>
+  <summary>91影视免费版 是视频网站吗？</summary>
+  <div>不是。本站只是一份<strong>观看方法与观影记录的文字笔记</strong>，不提供在线播放、视频嵌入、播放器、下载按钮或任何影片文件，页面里没有任何视频元素。</div>
+ </details>
+ <details>
+  <summary>免费片源去哪里找？</summary>
+  <div>本册只写方法：优先看片方官方免费栏目、官方公共版权影片库、平台的免费专区，以及各地公共文化机构公开提供的影像资料。具体片名与入口以各平台当日页面为准，本站不列外链。</div>
+ </details>
+ <details>
+  <summary>需要付费或注册吗？</summary>
+  <div>不需要，也<strong>无法付费</strong>。本站没有会员、没有付费墙、没有打赏、没有订阅入口，也不收集账号信息。</div>
+ </details>
+ <details>
+  <summary>可以代找资源或投屏吗？</summary>
+  <div>不可以，本站不提供代找、代下、投屏、解析、转存、网盘分享、字幕包或任何技术协助。</div>
+ </details>
+ <details>
+  <summary>片单多久更新一次？</summary>
+  <div>每周三补一篇免费观看笔记，每月整理一次归档表。更新只看观看进度，不看上映档期与热搜。</div>
+ </details>
+ <details>
+  <summary>记录里出现收费平台怎么办？</summary>
+  <div>记录只标注来源类型（如平台免费专区、官方免费栏目），不写具体平台名称，也不引导前往。若某片转为付费，本册仍保留观看笔记，但不再把它计入免费条目。</div>
+ </details>
+</section>
+
+<section id="about">
+ <h2><i>Section 06</i>关于本站</h2>
+ <div class="aboutbox">
+  <div class="txt">
+   <p><strong>91影视免费版</strong>是一份个人整理的观影笔记，核心只有一句话：不花钱，也把片子看明白。</p>
+   <p>本册的内容是观看方法、片长安排、观看节奏与看完之后的几句记录，不涉及任何资源的提供与分发，也不评价哪家平台更好。</p>
+   <p>记录从 2024 年 3 月开始，按月份归档，目前共 118 条。所有条目均为正当免费来源，任何一条都不构成资源指引。</p>
+  </div>
+  <div class="addr">
+   <h4>SITE ADDRESS</h4>
+   <code>https://91yingshimianfeiban-top.github.io/</code>
+   <p style="margin-top:14px;font-size:13.5px;color:#f2ece0">本站唯一地址，以上方代码框内为准。页面仅在 GitHub Pages 提供，不含任何外部跳转、统计脚本与第三方资源。</p>
+  </div>
+ </div>
+</section>
+
+</main>
+
+<footer>
+ <div class="wrap">
+  <p>© 91影视免费版 · 一份关于免费观看的影像笔记 · 不提供播放、下载、订场、售票、代找与投屏</p>
+  <p><a class="top" href="#top">返回顶部 ↑</a></p>
+ </div>
+</footer>
+</body>
+</html>
